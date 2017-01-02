@@ -5,8 +5,8 @@ import {Observable} from "rxjs";
 export class BourseService {
     societes: Array<any>;
 
-    private basicSocieteUrl = "http://localhost:8080/societes";
-    private societeUrl = "http://localhost:8080/societe/";
+    private basicSocieteUrl = "http://localhost:8080/api/societes";
+    private societeUrl = "http://localhost:8080/api/societe/";
     private _totalPages: number = 0;
     private _totalOrdrePages: number = 0;
 
